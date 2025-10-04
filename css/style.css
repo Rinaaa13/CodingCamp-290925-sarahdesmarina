@@ -1,0 +1,99 @@
+body {
+    background-color: #0f172a;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+.container {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.5);
+    width: 600px;
+}
+  
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.form {
+    display:flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+  
+input, button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+  
+input {
+    background: #0f172a;
+    color: white;
+    width: 100%;
+}
+  
+button {
+    background: #334155;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+  
+button:hover {
+    background: #475569;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1); /* Membalik warna jadi putih */
+    cursor: pointer;
+}
+  
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+  
+#filterSelect {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background: #334155;
+    color: white;
+    cursor: pointer;
+}
+  
+#filterSelect:hover {
+    background: #475569;
+}
+    
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: #0f172a;
+    border-radius: 10px;
+    overflow: hidden;
+}
+  
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+  
+th {
+    background: #334155;
+}
+  
+tr:nth-child(even) {
+    background: #1e293b;
+}  
